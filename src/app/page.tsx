@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import Image from "next/image";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -32,10 +33,12 @@ export default function Page() {
             <BlurFade delay={BLUR_FADE_DELAY}>
               <div className="relative size-28">
                 <div className="relative h-full w-full rounded-full overflow-hidden">
-                  <img 
+                  <Image 
                     src={DATA.avatarUrl} 
                     alt={DATA.name}
                     className="h-full w-full object-cover"
+                    width={112}
+                    height={112}
                   />
                 </div>
               </div>
@@ -199,7 +202,7 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Feel free to reach out if you'd like to collaborate on a project, discuss opportunities, or just have a chat about technology and innovation.
+                Feel free to reach out if you&apos;d like to collaborate on a project, discuss opportunities, or just have a chat about technology and innovation.
               </p>
               <div className="flex justify-center items-center space-x-4">
                 <a
