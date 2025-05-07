@@ -198,22 +198,17 @@ export default function Page() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Get in Touch
               </h2>
-              <div className="flex flex-col items-center space-y-4">
-                <div className="flex items-center space-x-4">
-                  <a
-                    href={`mailto:${DATA.contact.email}`}
-                    className="text-primary hover:underline"
-                  >
-                    {DATA.contact.email}
-                  </a>
-                  <span className="text-muted-foreground">•</span>
-                  <a
-                    href={`tel:${DATA.contact.tel}`}
-                    className="text-primary hover:underline"
-                  >
-                    {DATA.contact.tel}
-                  </a>
-                </div>
+              <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Feel free to reach out if you'd like to collaborate on a project, discuss opportunities, or just have a chat about technology and innovation.
+              </p>
+              <div className="flex justify-center items-center space-x-4">
+                <a
+                  href={`mailto:${DATA.contact.email}`}
+                  className="text-primary hover:underline flex items-center gap-2"
+                >
+                  <DATA.contact.social.email.icon className="size-4" />
+                  {DATA.contact.email}
+                </a>
               </div>
             </div>
           </BlurFade>
