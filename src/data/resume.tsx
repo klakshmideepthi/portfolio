@@ -9,7 +9,7 @@ export const DATA = {
     "Actively looking for opportunities in AI/ML and Generative AI.",
   summary:
     "I'm a computer science graduate with a passion for artificial intelligence and product-driven innovation. I began my journey at IIIT Sri City, where I co-authored a research paper on multi-source domain adaptation, published at ICONIP 2021.\n\n" +
-    "After gaining hands-on experience as a software engineer at fast-paced startups like Groww, I pursued my M.S. in Computer Science at UMass Amherst. There, I led research on secure model inference at Adobe and gained practical industry exposure through CPT at Nuviso Networks, where I contributed to real-time asset tracking systems.\n\n" +
+    "After gaining hands-on experience as a software engineer at fast-paced startups like Groww, I pursued my M.S. in Computer Science at UMass Amherst. There, I led research on secure model inference at Adobe and gained practical industry exposure through experience at Nuviso Networks, where I contributed to real-time asset tracking systems.\n\n" +
     "Along the way, I've built and launched full-stack AI products, including Neovie, a GLP-1–centric health assistant leveraging generative models, and ReflectOn, a voice-based self-reflection app powered by GPT-4o and Whisper. My work blends LLMs, personalization engines, and cloud-native infrastructure to create adaptive, human-centered tools.\n\n" +
     "I'm currently seeking opportunities in Generative AI, ML engineering, or AI product development, where I can continue turning cutting-edge research into impactful real-world systems.",
   avatarUrl: "/me.jpg",
@@ -74,18 +74,18 @@ export const DATA = {
   },
 
   work: [
-    {
-      company: "University of Massachusetts, Amherst",
-      href: "https://atomic.finance",
-      badges: [],
-      location: "Remote",
-      title: "Volunteer | CICS Training & Enrichment Program (CICStep)",
-      logoUrl: "/umass.png",
-      start: "January 2025",
-      end: "Present",
-      description:
-        "	Selected to participate in CICStep, an academic enrichment program focused on professional and technical development.Engaged in self-driven software and AI-related projects while attending faculty talks, alumni mentorship sessions, and research initiatives.Completed weekly reflective submissions to document skill development, research exploration, and personal progress in machine learning and software engineering.",
-    },
+    // {
+    //   company: "University of Massachusetts, Amherst",
+    //   href: "https://atomic.finance",
+    //   badges: [],
+    //   location: "Remote",
+    //   title: "Volunteer | CICS Training & Enrichment Program (CICStep)",
+    //   logoUrl: "/umass.png",
+    //   start: "January 2025",
+    //   end: "Present",
+    //   description:
+    //     "Selected to participate in CICStep, an academic enrichment program focused on professional and technical development.Engaged in self-driven software and AI-related projects while attending faculty talks, alumni mentorship sessions, and research initiatives.Completed weekly reflective submissions to document skill development, research exploration, and personal progress in machine learning and software engineering.",
+    // },
     {
       company: "Nuviso Networks",
       badges: [],
@@ -93,10 +93,10 @@ export const DATA = {
       location: "Milpitas, CA",
       title: "Developer",
       logoUrl: "/nuviso.webp",
-      start: "June 2024",
-      end: "September 2024",
+      start: "May 2024",
+      end: "Present",
       description:
-        "Developed and tested software components and user interfaces, including real-time asset tracking and product management dashboards, enhancing the efficiency of operational workflows. Maintained software systems, which resulted in noticeable reductions in downtime, and improved product management by significantly minimizing data-related issues through API updates.",
+        "Developed and maintained React.js components and implemented SQL-based optimizations that enhance real-time asset-tracking dashboards, boosting operational efficiency by 25% and reducing downtime. Designed and optimized RESTful APIs that facilitate reliable data exchange with the front end, reducing data-related issues by 40% and enhancing product-management workflows through seamless integration with React components. Built an in-house retrieval-augmented-generation (RAG) chatbot in Python + LangChain that embeds ~25 k internal docs with OpenAI models, stores them in Pinecone, retrieves the most relevant passages per query, and uses GPT‑4o to reply in <1.5 s—boosting first‑contact resolution by 30 %. Shipped a React 18 + TypeScript chat panel connected to a FastAPI chatbot backend, giving users instant answers and reducing support ticket volume by 18%.",
     },
     {
       company: "Adobe",
