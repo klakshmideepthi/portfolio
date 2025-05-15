@@ -117,8 +117,8 @@ export const DATA = {
       location: "Bangalore, India ",
       title: "Software Engineer",
       logoUrl: "/groww.avif",
-      start: "December 2021",
-      end: "June 2022",
+      start: "Aug 2021",
+      end: "Dec 2022",
       description: 
         "Gained practical experience in backend development, focusing on enhancing the platform's functionality and reliability. Trained in Spring Boot and ElasticSearch, contributing to API integrations, version control processes, and the development of new features to improve overall service capabilities. Identified and resolved software bugs, optimizing the platform's reliability and performance."    },
     {
