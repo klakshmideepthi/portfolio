@@ -152,6 +152,19 @@ export const DATA = {
       end: "May 2022",
     },
   ],
+  volunteering: [
+    {
+      organization: "Empathable",
+      href: "https://empathable.com", // You may want to update this URL
+      badges: [],
+      location: "Remote",
+      title: "AI Software Developer",
+      start: "February 2025",
+      end: "Present",
+      description:
+        "Built a HIPAA-compliant, voice-driven patient simulator: a React 18 + TypeScript front end streams WebRTC audio to a Python/FastAPI backend that blends Whisper ASR, GPT-4o dialogue, and neural TTS, letting clinicians rehearse doctor-patient conversations in real time. Implemented an NLP scoring engine that rates each exchange on empathy, clarity, and diagnostic accuracy and returns tailored coaching; a 15-resident pilot lifted simulated patient-satisfaction scores 25%. Integrated FHIR‑based APIs, single‑sign‑on, and multilingual/accessibility features, cutting standardized actor training costs ~40% and surfacing department‑level dashboards tied to HCAHPS patient-experience metrics."
+    }
+  ],
   projects: [
     {
       title: "Neovie",
