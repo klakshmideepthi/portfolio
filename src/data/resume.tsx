@@ -131,7 +131,7 @@ export const DATA = {
       start: "January 2018",
       end: "April 2018",
       description:
-        "Developed responsive enterprise dashboards and internal software using ReactJS, while actively participating in agile processes to ensure seamless user experience and effective team collaboration."
+        "Assisted in developing and refining the company’s internal website using ReactJS, focusing on responsive UI components and layout improvements under team guidance. Supported integration of frontend components with backend APIs, and contributed to testing, version control (Git), and deployment workflows using CI/CD tools."
     },
   ],
   education: [
