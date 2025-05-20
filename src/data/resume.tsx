@@ -39,7 +39,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "deepthikl.136@gmail.com",
@@ -57,12 +57,12 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://x.com/kurugundla01",
-        icon: Icons.x,
-        navbar: true,
-      },
+      // X: {
+      //   name: "X",
+      //   url: "https://x.com/kurugundla01",
+      //   icon: Icons.x,
+      //   navbar: true,
+      // },
       email: {
         name: "Send Email",
         url: "mailto:deepthikl.136@gmail.com,second.email@example.com?subject=Hello&body=Hi%20there",

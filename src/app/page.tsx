@@ -143,6 +143,38 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <section id="publication">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Publication
+                </div>
+                <h3 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  A Novel Multi-Source Domain Learning Approach to Unsupervised Deep Domain Adaptation
+                </h3>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Co-authored and published at <strong>ICONIP 2021</strong>, this paper proposes a deep learning framework using a three-stream CNN 
+                  for unsupervised domain adaptation. The model transfers knowledge from multiple labeled source domains 
+                  to an unlabeled target domain using CORAL-based domain confusion and discriminative losses. Our approach 
+                  achieved state-of-the-art performance on the CMU-PIE dataset.
+                  <br /><br />
+                  <a 
+                    href="https://scholar.google.com/citations?user=tFrDTlMAAAAJ&hl=en" 
+                    className="underline text-primary" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    View on Google Scholar →
+                  </a>
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+
+        </div>
+      </section>
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -184,38 +216,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="publication">
-        <div className="space-y-12 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 13}>
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Publication
-                </div>
-                <h3 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  A Novel Multi-Source Domain Learning Approach to Unsupervised Deep Domain Adaptation
-                </h3>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Co-authored and published at <strong>ICONIP 2021</strong>, this paper proposes a deep learning framework using a three-stream CNN 
-                  for unsupervised domain adaptation. The model transfers knowledge from multiple labeled source domains 
-                  to an unlabeled target domain using CORAL-based domain confusion and discriminative losses. Our approach 
-                  achieved state-of-the-art performance on the CMU-PIE dataset.
-                  <br /><br />
-                  <a 
-                    href="https://scholar.google.com/citations?user=tFrDTlMAAAAJ&hl=en" 
-                    className="underline text-primary" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                  >
-                    View on Google Scholar →
-                  </a>
-                </p>
-              </div>
-            </div>
-          </BlurFade>
-
-        </div>
-      </section>
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
@@ -236,6 +236,24 @@ export default function Page() {
                 >
                   <DATA.contact.social.email.icon className="size-4" />
                   {DATA.contact.email}
+                </a>
+                <a
+                  href={`tel:${DATA.contact.tel}`}
+                  className="text-primary hover:underline flex items-center gap-2"
+                >
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    strokeWidth="2" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    className="size-4"
+                  >
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                  {DATA.contact.tel}
                 </a>
               </div>
             </div>
