@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Lakshmi Deepthi Kurugundla",
+  name: "Lakshmi Deepthi K",
   initials: "LK",
   url: "https://laks.io",
   description:
@@ -53,7 +53,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/lakshmi-deepthi-kurugundla/",
+        url: "https://www.linkedin.com/in/kldeepthi/",
         icon: Icons.linkedin,
         navbar: true,
       },
