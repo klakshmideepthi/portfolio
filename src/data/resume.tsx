@@ -8,10 +8,9 @@ export const DATA = {
   description:
     "Actively looking for opportunities in AI/ML and Generative AI.",
   summary:
-    "I'm a computer science graduate with a passion for artificial intelligence and product-driven innovation. I began my journey at IIIT Sri City, where I co-authored a research paper on multi-source domain adaptation, published at ICONIP 2021.\n\n" +
-    "After gaining hands-on experience as a software engineer at fast-paced startups like Groww, I pursued my M.S. in Computer Science at UMass Amherst. There, I led research on secure model inference at Adobe and gained practical industry exposure through experience at Nuviso Networks, where I contributed to real-time asset tracking systems.\n\n" +
-    "Along the way, I've built and launched full-stack AI products, including Neovie, a GLP-1–centric health assistant leveraging generative models, and ReflectOn, a voice-based self-reflection app powered by GPT-4o and Whisper. My work blends LLMs, personalization engines, and cloud-native infrastructure to create adaptive, human-centered tools.\n\n" +
-    "I'm currently seeking opportunities in Generative AI, ML engineering, or AI product development, where I can continue turning cutting-edge research into impactful real-world systems.",
+    "I’m a developer, researcher, and builder who’s endlessly curious about how AI can understand, help, and adapt to people. I started my journey in computer science because I loved solving problems—and over time, I found myself drawn to building products where machine learning meets real human needs.\n\n" +
+    "Since then, I’ve worked across startups, research labs, and industry teams—developing apps like Neovie (an AI health coach), ReflectOn (a voice-based reflection app), and a smart troubleshooting chatbot at Nuviso. Whether I’m designing secure model inference systems at Adobe or crafting GenAI pipelines with LangChain, what drives me is the same: creating thoughtful, intelligent systems that feel personal and useful.\n\n" +
+    "Right now, I’m excited about opportunities in Generative AI, ML engineering, or AI product roles where I can keep learning, building, and creating things that matter.\n\n",
   avatarUrl: "/me.jpg",
   skills: [
     "Python",
@@ -43,8 +42,8 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "kurugundlald2001@gmail.com",
-    tel: "+14132759242",
+    email: "deepthikl.136@gmail.com",
+    tel: "+16822567888",
     social: {
       GitHub: {
         name: "GitHub",
@@ -66,7 +65,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:kurugundlald2001@gmail.com,second.email@example.com?subject=Hello&body=Hi%20there",
+        url: "mailto:deepthikl.136@gmail.com,second.email@example.com?subject=Hello&body=Hi%20there",
         icon: Icons.email,
         navbar: false,
       },
@@ -74,18 +73,6 @@ export const DATA = {
   },
 
   work: [
-    // {
-    //   company: "University of Massachusetts, Amherst",
-    //   href: "https://atomic.finance",
-    //   badges: [],
-    //   location: "Remote",
-    //   title: "Volunteer | CICS Training & Enrichment Program (CICStep)",
-    //   logoUrl: "/umass.png",
-    //   start: "January 2025",
-    //   end: "Present",
-    //   description:
-    //     "Selected to participate in CICStep, an academic enrichment program focused on professional and technical development.Engaged in self-driven software and AI-related projects while attending faculty talks, alumni mentorship sessions, and research initiatives.Completed weekly reflective submissions to document skill development, research exploration, and personal progress in machine learning and software engineering.",
-    // },
     {
       company: "Nuviso Networks",
       badges: [],
@@ -96,7 +83,7 @@ export const DATA = {
       start: "May 2024",
       end: "Present",
       description:
-        "Developed and maintained React.js components and implemented SQL-based optimizations that enhance real-time asset-tracking dashboards, boosting operational efficiency by 25% and reducing downtime. Designed and optimized RESTful APIs that facilitate reliable data exchange with the front end, reducing data-related issues by 40% and enhancing product-management workflows through seamless integration with React components. Built an in-house retrieval-augmented-generation (RAG) chatbot in Python + LangChain that embeds ~25 k internal docs with OpenAI models, stores them in Pinecone, retrieves the most relevant passages per query, and uses GPT‑4o to reply in <1.5 s—boosting first‑contact resolution by 30 %. Shipped a React 18 + TypeScript chat panel connected to a FastAPI chatbot backend, giving users instant answers and reducing support ticket volume by 18%.",
+        "Spearheaded development and optimization efforts for asset-tracking solutions, focusing on React 18 and TypeScript dashboards with PostgreSQL backend enhancements that significantly cut load times. Designed and improved REST & gRPC APIs using FastAPI and Spring Boot, enhancing data synchronization and streamlining product workflows. A key achievement was engineering and deploying an internal RAG chatbot leveraging LangChain, Pinecone, and Amazon Bedrock for rapid document processing and improved issue resolution. This initiative included shipping a real-time React chat interface connected via WebSockets, which reduced support tickets and provided field engineers with instant knowledge access. Additionally, implemented data pipeline and KPI monitoring in Snowflake to track AI model performance and coverage.",
     },
     {
       company: "Adobe",
@@ -112,7 +99,7 @@ export const DATA = {
     },
     {
       company: "Groww",
-      href: "https://splunk.com",
+      href: "https://groww.in/",
       badges: [],
       location: "Bangalore, India ",
       title: "Software Engineer",
@@ -120,7 +107,8 @@ export const DATA = {
       start: "Aug 2021",
       end: "Dec 2022",
       description: 
-        "Gained practical experience in backend development, focusing on enhancing the platform's functionality and reliability. Trained in Spring Boot and ElasticSearch, contributing to API integrations, version control processes, and the development of new features to improve overall service capabilities. Identified and resolved software bugs, optimizing the platform's reliability and performance."    },
+        "Collaborated on designing and delivering Promo Service, a key Java 11 / Spring Boot microservice for managing promo codes across web and mobile applications. This involved exposing RESTful endpoints documented with Swagger, ensuring contract stability with JUnit tests, and significantly improving redemption latency through PostgreSQL query tuning and Redis caching. Maintained high data consistency across services by publishing Kafka events and implementing SAGA-style rollback handlers. Streamlined deployment by containerizing the service with Docker and leveraging GitLab CI with Helm for deployments to Google Kubernetes Engine, substantially reducing rollout times."
+    },
     {
       company: "4Climate",
       href: "https://www.4climate.in/",
@@ -155,7 +143,7 @@ export const DATA = {
   volunteering: [
     {
       organization: "Empathable",
-      href: "https://empathable.com", // You may want to update this URL
+      href: "https://empathable.com/", // You may want to update this URL
       badges: [],
       location: "Remote",
       title: "AI Software Developer",
